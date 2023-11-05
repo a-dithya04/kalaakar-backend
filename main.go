@@ -1,9 +1,8 @@
 package main
 
-import (
-  "fmt"
-)
+import "github.com/joho/godotenv"
 
-func main(){
-  fmt.Printf("Hello World")
+func main() {
+
+  err := godotenv.Load(".env")
 }
