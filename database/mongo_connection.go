@@ -1,4 +1,4 @@
-package main
+package database 
 
 import (
 	"context"
@@ -11,7 +11,7 @@ import (
 	"go.mongodb.org/mongo-driver/mongo/options"
 )
 
-func main(){
+func DBConnection(){
   
   // Handle the loading of environement variables
   envVar, err := godotenv.Read("../.env")
