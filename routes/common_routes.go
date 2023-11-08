@@ -13,6 +13,6 @@ func BuyerRoutes(incomingRoutes *gin.Engine) {
 
 func SellerRoutes(incomingRoutes *gin.Engine) {
   incomingRoutes.POST("/login/seller", controller.SellerLogin())
-  incomingRoutes.POST("signup/seller", controller.SellerSignUp())
+  incomingRoutes.POST("/signup/seller", controller.SellerSignUp())
 
 }

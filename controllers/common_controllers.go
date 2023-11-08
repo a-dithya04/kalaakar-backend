@@ -23,6 +23,6 @@ func BuyerSignUp() gin.HandlerFunc {
 
 }
 
-func SellerSignUp() *gin.HandlerFunc {
+func SellerSignUp() gin.HandlerFunc {
 
 }
