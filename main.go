@@ -29,22 +29,22 @@ func main() {
   router.Use(gin.Logger())
 
   // validate routes
-  router.BuyerRoutes(router)
-  router.SellerRoutes(router)
+  routes.BuyerRoutes(router)
+  routes.SellerRoutes(router)
 
   router.User(middleware.BuyerAuth())
   router.User(middleware.SellerAuth())
 
   // routes
-  router.BuyerProfileRoutes(router)
-  router.SellerProfileRoutes(router)
-  router.CartRoutes(router)
-  router.MarketplaceRoutes(router)
-  router.BuyerProductRoutes(router)
-  router.SellerProductRoutes(router)
+  routes.BuyerProfileRoutes(router)
+  routes.SellerProfileRoutes(router)
+  routes.CartRoutes(router)
+  routes.MarketplaceRoutes(router)
+  routes.BuyerProductRoutes(router)
+  routes.SellerProductRoutes(router)
 
   // to work upon later
-  router.SellerAnalyticsRouter(router)
-  router.ProductAnalyticsRouter(router)
+  routes.SellerAnalyticsRoutes(router)
+  routes.ProductAnalyticsRoutes(router)
 
 }

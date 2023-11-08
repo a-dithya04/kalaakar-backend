@@ -10,3 +10,15 @@ import(
   database "github.com/IAmRiteshKoushik/kalaakar-backend/database"
   models "github.com/IAmRiteshKoushik/kalaakar-backend/models"
 )
+
+func GetWeeklySale() gin.HandlerFunc {
+
+}
+
+func GetMonthlySale() gin.HandlerFunc {
+
+}
+
+func GetMostSoldProducts() gin.HandlerFunc {
+
+}

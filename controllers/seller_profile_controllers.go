@@ -10,3 +10,31 @@ import(
   database "github.com/IAmRiteshKoushik/kalaakar-backend/database"
   models "github.com/IAmRiteshKoushik/kalaakar-backend/models"
 )
+
+func GetSellerProfile() gin.HandlerFunc {
+
+}
+
+func UpdateSellerProfileImage() gin.HandlerFunc {
+
+}
+
+func UpdateSellerBannerImage() gin.HandlerFunc {
+
+}
+
+func DisableSellerAccount() gin.HandlerFunc {
+
+}
+
+func DeleteSellerProfileImage() gin.HandlerFunc {
+
+}
+
+func DeleteSellerBannerImage() gin.HandlerFunc {
+
+}
+
+func DeleteSellerAccount() gin.HandlerFunc {
+
+}
